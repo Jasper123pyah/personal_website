@@ -1,0 +1,12 @@
+.projectsHead{
+    color: #ffffff;
+    height:15vh;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+.projectsBody{
+    height:100vh;
+}

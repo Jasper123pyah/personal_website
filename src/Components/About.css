@@ -1,0 +1,95 @@
+.aboutBox{
+    height:100vh;
+    display: flex;
+}
+@media only screen and (min-width:1200px){
+    .aboutBody{
+        height:100vh;
+    }
+}
+.about{
+    color:white;
+}
+.aboutHead{
+    color: #ffffff;
+    height:15vh;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+details:hover{
+    cursor:pointer;
+}
+.qualityBox{
+    height:30vh;
+    width:100%;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    display:flex;
+}
+.circleBox{
+    height:20vh;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.circle{
+    height: 12vh;
+    width: 12vh;
+    background-color: #5c488e;
+    border-radius: 50%;
+}
+.dot{
+    color: #5c488e;
+}
+@media only screen and (max-width: 600px)
+{
+    .profileDescription{
+        font-size:24px;
+        margin-top:4vw;
+        margin-bottom:4vw;
+    }
+    .profilePic{
+        border-radius: 3%;
+        transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        -moz-box-shadow: 0 0 40px black;
+        -webkit-box-shadow: 0 0 40px black;
+        box-shadow: 0 0 40px black;
+    }
+    .profileBox{
+        display:flex;
+        justify-content:center;
+        flex-direction: column;
+    }
+}
+.profileBox{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+.profileDescription{
+    margin-left:10%;
+    font-size:24px;
+    width:100%;
+    text-align:start;
+}
+.profilePic{
+    border-radius: 3%;
+    transform: rotate(-2deg);
+    -webkit-transform: rotate(-2deg);
+    -moz-box-shadow: 0 0 40px black;
+    -webkit-box-shadow: 0 0 40px black;
+    box-shadow: 0 0 40px black;
+}
+.circleIcon{
+    color:white;
+    margin-top:1vh;
+    margin-left:1.5vh;
+    height:9vh;
+    width:9vh;
+}
