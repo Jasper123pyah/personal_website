@@ -1,12 +1,66 @@
 .projectsHead{
     color: #ffffff;
-    height:15vh;
     width:100%;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 40px;
+    margin-top:4vw;
+    margin-bottom: 2vw;
 }
-.projectsBody{
-    height:100vh;
+.projectCard{
+    display: grid;
+    position:relative;
+    margin-bottom: 4vh;
+    width:100%;
+}
+.projectImage{
+    height:100%;
+    width:100%;
+    box-shadow: 0 0 10px grey;
+}
+.projectDescription{
+    display:none;
+}
+.projectCard:hover .projectDescription{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    position: absolute;
+    background-color:#1a1e20;
+    cursor: default;
+    box-shadow: 0 0 50px black;
+    margin-bottom: 2vw;
+    height:100%;
+    width:100%;
+}
+
+.learnMoreButton {
+    margin-top:2vw;
+    border-radius: 5px;
+    box-sizing: inherit;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13pt;
+    padding: 10px 20px;
+    transition: all 0.5s;
+    background-color:#893e67;
+    color: black;
+}
+.learnMoreButtonDisabled {
+    margin-top:2vw;
+    border-radius: 5px;
+    box-sizing: inherit;
+    display: inline-block;
+    font-size: 13pt;
+    padding: 10px 20px;
+    transition: all 0.5s;
+    background-color:#222629;
+    color: white;
+}
+.learnMoreButton:hover{
+    background-color:#ad4f83;
+    border-color: #ad4f83;
 }

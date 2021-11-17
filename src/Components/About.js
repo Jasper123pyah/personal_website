@@ -15,6 +15,34 @@ function About(){
             </div>
             <Container>
                 <Row>
+                    <Col lg={1}/>
+                    <Col sm={12} md={12} lg={6} xl={5}>
+                        <div className={"profileBox"}>
+                            <img className={"profilePic"} style={{height:"40vh"}} src={Portrait}/>
+                            <div className={"profileDescription"}>
+                                I'm a Software Developer who's studying at Fontys who always strives for improvement.
+                                I have a serious passion for problem-solving, helping others and programming.
+                            </div>
+                        </div>
+                    </Col>
+                    <Col sm={2} md={2.5} xl={1}/>
+                    <Col sm={10} md={9.5} lg={5}>
+                        <div style={{textDecorationThickness: "3px"}} className={"programmingSkills"}>
+                            Programming Skills
+                        </div>
+                        <div style={{marginLeft:"2vw", marginTop:"1vh"}}>
+                            <div className={"skillSize"}><span className={"dot"}>●</span> Back-end Development</div>
+                            <div className={"skillSize"} style={{marginLeft:"5vh"}}><span className={"dot"}>➤</span> ASP.NET</div>
+                            <div className={"skillSize"} style={{marginLeft:"5vh"}}><span className={"dot"}>➤</span> Laravel, PHP</div>
+                            <div className={"skillSize"} ><span className={"dot"}>●</span> Front-end Development</div>
+                            <div className={"skillSize"} style={{marginLeft:"5vh"}}><span className={"dot"}>➤</span> TypeScript</div>
+                            <div className={"skillSize"} style={{marginLeft:"5vh"}}><span className={"dot"}>➤</span> React JS</div>
+                            <div className={"skillSize"} style={{marginLeft:"5vh"}}><span className={"dot"}>➤</span> HTML</div>
+                            <div className={"skillSize"} style={{marginLeft:"5vh"}}><span className={"dot"}>➤</span> CSS</div>
+                        </div>
+                    </Col>
+                </Row>
+                <Row style={{marginTop:"5vw"}}>
                     <Col sm={12} md={6} lg={4}>
                         <div className={"qualityBox"}>
                             <div className={"circle"}>
@@ -49,36 +77,8 @@ function About(){
                         </div>
                     </Col>
                 </Row>
-                <Row>
-                    <Col lg={1}/>
-                    <Col sm={12} md={12} lg={5}>
-                        <div className={"profileBox"}>
-                            <img className={"profilePic"} style={{height:"40vh"}} src={Portrait}/>
-                            <div className={"profileDescription"}>
-                                I'm a Software Developer who's studying at Fontys who always strives for improvement.
-                                I have a serious passion for problem-solving, helping others and programming.
-                            </div>
-                        </div>
-
-                    </Col>
-                    <Col sm={2} md={2.5} lg={1}/>
-                    <Col sm={10} md={9.5} lg={5}>
-                        <div style={{fontSize:"40px", textDecorationThickness:"3px", textDecoration: "underline", textDecorationColor:"#5c488e", marginTop:"2vh", marginLeft:"2vw"}}>
-                            Programming Skills
-                        </div>
-                        <div style={{marginLeft:"2vw", marginTop:"1vh"}}>
-                            <div style={{fontSize:"30px"}}><span className={"dot"}>➤</span> C#</div>
-                            <div style={{fontSize:"30px"}}><span className={"dot"}>➤</span> JavaScript</div>
-                            <div style={{fontSize:"30px"}}><span className={"dot"}>➤</span> React</div>
-                            <div style={{fontSize:"30px"}}><span className={"dot"}>➤</span> HTML</div>
-                            <div style={{fontSize:"30px"}}><span className={"dot"}>➤</span> CSS</div>
-                            <div style={{fontSize:"30px"}}><span className={"dot"}>➤</span> PHP</div>
-                        </div>
-                    </Col>
-                </Row>
             </Container>
         </div>
     </div>
-
 }
 export default About;

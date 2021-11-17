@@ -3,6 +3,7 @@ import Welcome from "./Components/Welcome";
 import About from "./Components/About";
 import Projects from "./Components/Projects";
 import background from "./background.png"
+import Contact from "./Components/Contact";
 function App() {
 
 
@@ -10,6 +11,7 @@ function App() {
             <Welcome/>
             <About/>
             <Projects/>
+            <Contact/>
         </div>
     );
 }
