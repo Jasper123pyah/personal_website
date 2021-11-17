@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 
 function ProjectCard(props) {
 
@@ -13,7 +13,7 @@ function ProjectCard(props) {
             {props.link ? <a className={"learnMoreButton"} href={props.link}>View site</a>
                 : <div className={"learnMoreButtonDisabled"}>Under Development</div>}
         </div>
-        <img alt={"Image Missing"} className={"projectImage"} src={props.image}/>
+        <img alt={"Missing"} className={"projectImage"} src={props.image}/>
     </div>)
 }
 export default ProjectCard;

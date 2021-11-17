@@ -18,7 +18,7 @@ function About(){
                     <Col lg={1}/>
                     <Col sm={12} md={12} lg={6} xl={5}>
                         <div className={"profileBox"}>
-                            <img className={"profilePic"} style={{height:"40vh"}} src={Portrait}/>
+                            <img alt={"Not Found"} className={"profilePic"} style={{height:"40vh"}} src={Portrait}/>
                             <div className={"profileDescription"}>
                                 I'm a Software Developer who's studying at Fontys who always strives for improvement.
                                 I have a serious passion for problem-solving, helping others and programming.

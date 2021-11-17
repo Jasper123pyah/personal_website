@@ -6,7 +6,7 @@ import AnteUp from '../ante-up.png';
 import ProjectCard from "./ProjectCard";
 
 function Projects(){
-    const[projects, setProjects] = useState([
+    const projects = useState([
         {name: "Ante-Up", language:"React JS/C#",link:"", image:AnteUp},
         {name: "Personal Website", language:"React JS", link:"/", image:Personal},
     ]);
