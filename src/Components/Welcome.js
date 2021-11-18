@@ -11,7 +11,7 @@ function Welcome(){
     return<div className={"welcomeBox"}>
             <div style={{textAlign: 'center', fontSize: "4vh"}}>
                 <div style={{marginBottom: "2vh"}}>
-                    Hello, I'm <span className={"name"}><span style={{color:"#5491bc"}}> Jasper</span> van den Meiracker.</span>
+                    Hello, I'm <span className={"name"}><span style={{color:"#5491bc"}}> Jasper</span></span> van den Meiracker.
                     <br/>
                     I'm a soon-to-be software developer.
                 </div>

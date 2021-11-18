@@ -10,7 +10,7 @@ function ProjectCard(props) {
             <div style={{fontSize: "20px", color: "#ad4f83"}}>
                 {props.language}
             </div>
-            {props.link ? <a className={"learnMoreButton"} href={props.link}>View site</a>
+            {props.link ? <div/>
                 : <div className={"learnMoreButtonDisabled"}>Under Development</div>}
         </div>
         <img alt={"Missing"} className={"projectImage"} src={props.image}/>

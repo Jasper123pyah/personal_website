@@ -15,12 +15,17 @@
     width:100%;
 }
 .projectImage{
+    opacity:1;
     height:100%;
     width:100%;
     box-shadow: 0 0 10px grey;
+    transition: 0.4s;
 }
 .projectDescription{
-    display:none;
+    display: none;
+}
+.projectCard:hover .projectImage{
+    opacity:0;
 }
 .projectCard:hover .projectDescription{
     display:flex;
@@ -31,7 +36,7 @@
     position: absolute;
     background-color:#1a1e20;
     cursor: default;
-    box-shadow: 0 0 50px black;
+    box-shadow: 0 0 30px black;
     margin-bottom: 2vw;
     height:100%;
     width:100%;
