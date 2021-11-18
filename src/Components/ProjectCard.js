@@ -4,10 +4,10 @@ function ProjectCard(props) {
 
     return (<div className={"projectCard"}>
         <div className={"projectDescription"}>
-            <div style={{fontSize: "1.5vw"}}>
+            <div style={{fontSize: "26px"}}>
                 {props.name}
             </div>
-            <div style={{fontSize: "1vw", color: "#ad4f83"}}>
+            <div style={{fontSize: "20px", color: "#ad4f83"}}>
                 {props.language}
             </div>
             {props.link ? <a className={"learnMoreButton"} href={props.link}>View site</a>

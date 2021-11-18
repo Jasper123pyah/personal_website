@@ -20,7 +20,7 @@ function About(){
                         <div className={"profileBox"}>
                             <img alt={"Not Found"} className={"profilePic"} style={{height:"40vh"}} src={Portrait}/>
                             <div className={"profileDescription"}>
-                                I'm a Software Developer who's studying at Fontys who always strives for improvement.
+                                I'm a software developer studying at Fontys who always strives for improvement.
                                 I have a serious passion for problem-solving, helping others and programming.
                             </div>
                         </div>
