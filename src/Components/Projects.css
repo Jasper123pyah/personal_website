@@ -26,8 +26,32 @@
 }
 .projectCard:hover .projectImage{
     opacity:0;
+    cursor: pointer;
 }
 .projectCard:hover .projectDescription{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    position: absolute;
+    background-color:#1a1e20;
+    cursor: default;
+    box-shadow: 0 0 30px black;
+    margin-bottom: 2vw;
+    height:100%;
+    width:100%;
+}
+.projectCardNoPointer{
+    display: grid;
+    position:relative;
+    margin-bottom: 4vh;
+    width:100%;
+}
+.projectCardNoPointer:hover .projectImage{
+    opacity:0;
+}
+.projectCardNoPointer:hover .projectDescription{
     display:flex;
     flex-direction: column;
     align-items: center;

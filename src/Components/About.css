@@ -14,7 +14,7 @@
     align-items: center;
     justify-content: center;
     font-size: 40px;
-    margin-bottom: 5vh;
+    margin-bottom: 2vw;
 }
 
 details:hover {
@@ -89,7 +89,6 @@ details:hover {
 
 .profileDescription {
     margin-top: 2vh;
-    margin-left: 10%;
     font-size: x-large;
     width: 100%;
     height: 60%;
@@ -112,6 +111,12 @@ details:hover {
         margin-top: 4vw;
         margin-bottom: 4vw;
         margin-right: 6vw;
+    }
+    .profileBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }
 

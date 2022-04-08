@@ -15,25 +15,25 @@ function About(){
             </div>
             <Container>
                 <Row>
-                    <Col lg={1}/>
-                    <Col sm={12} md={12} lg={6} xl={5}>
+                    <Col sm={12} md={12} lg={3}>
                         <div className={"profileBox"}>
                             <img alt={"Not Found"} className={"profilePic"} style={{height:"40vh"}} src={Portrait}/>
-                            <div className={"profileDescription"}>
-                                I'm a software developer studying at Fontys who always strives for improvement.
-                                I have a serious passion for problem-solving, helping others and programming.
-                            </div>
                         </div>
                     </Col>
-                    <Col sm={2} md={2.5} xl={1}/>
-                    <Col sm={10} md={9.5} lg={5}>
+                    <Col md={12} lg={3}>
+                        <div className={"profileDescription"}>
+                            I'm a software developer studying at Fontys who always strives for improvement.
+                            I have a serious passion for problem-solving, helping others and programming.
+                            I am currently in my fourth semester doing the excellence programme of Fontys called <a style={{color:'#5c488e'}} target="_blank" href={'https://deltafhict.nl/'}>Delta</a>.
+                        </div>
+                    </Col>
+                    <Col sm={12} md={12} lg={5}>
                         <div style={{textDecorationThickness: "3px"}} className={"programmingSkills"}>
                             Programming Skills
                         </div>
                         <div style={{marginLeft:"2vw", marginTop:"1vh"}}>
                             <div className={"skillSize"}><span className={"dot"}>●</span> Back-end Development</div>
                             <div className={"skillSize"} style={{marginLeft:"5vh"}}><span className={"dot"}>➤</span> ASP.NET</div>
-                            <div className={"skillSize"} style={{marginLeft:"5vh"}}><span className={"dot"}>➤</span> Laravel, PHP</div>
                             <div className={"skillSize"} ><span className={"dot"}>●</span> Front-end Development</div>
                             <div className={"skillSize"} style={{marginLeft:"5vh"}}><span className={"dot"}>➤</span> TypeScript</div>
                             <div className={"skillSize"} style={{marginLeft:"5vh"}}><span className={"dot"}>➤</span> React JS</div>
