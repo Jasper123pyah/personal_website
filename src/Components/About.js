@@ -27,18 +27,21 @@ function About(){
                             I am currently in my fourth semester doing the excellence programme of Fontys called <a style={{color:'#5c488e'}} target="_blank" href={'https://deltafhict.nl/'}>Delta</a>.
                         </div>
                     </Col>
-                    <Col sm={12} md={12} lg={5}>
-                        <div style={{textDecorationThickness: "3px"}} className={"programmingSkills"}>
-                            Programming Skills
-                        </div>
-                        <div style={{marginLeft:"2vw", marginTop:"1vh"}}>
-                            <div className={"skillSize"}><span className={"dot"}>●</span> Back-end Development</div>
-                            <div className={"skillSize"} style={{marginLeft:"5vh"}}><span className={"dot"}>➤</span> ASP.NET</div>
-                            <div className={"skillSize"} ><span className={"dot"}>●</span> Front-end Development</div>
-                            <div className={"skillSize"} style={{marginLeft:"5vh"}}><span className={"dot"}>➤</span> TypeScript</div>
-                            <div className={"skillSize"} style={{marginLeft:"5vh"}}><span className={"dot"}>➤</span> React JS</div>
-                            <div className={"skillSize"} style={{marginLeft:"5vh"}}><span className={"dot"}>➤</span> HTML</div>
-                            <div className={"skillSize"} style={{marginLeft:"5vh"}}><span className={"dot"}>➤</span> CSS</div>
+                    <Col sm={12} md={12} lg={6}>
+                        <div className={'centerSkills'}>
+                            <div style={{textDecorationThickness: "3px"}} className={"programmingSkills"}>
+                                Programming Skills
+                            </div>
+                            <div style={{marginLeft:"2vw", marginTop:"1vh"}}>
+                                <div className={"skillSize"}><span className={"dot"}>●</span> Back-end Development</div>
+                                <div className={"skillSize"} style={{marginLeft:"5vh"}}><span className={"dot"}>➤</span> ASP.NET</div>
+                                <div className={"skillSize"} style={{marginLeft:"5vh"}}><span className={"dot"}>➤</span> NodeJS</div>
+                                <div className={"skillSize"} ><span className={"dot"}>●</span> Front-end Development</div>
+                                <div className={"skillSize"} style={{marginLeft:"5vh"}}><span className={"dot"}>➤</span> TypeScript</div>
+                                <div className={"skillSize"} style={{marginLeft:"5vh"}}><span className={"dot"}>➤</span> React JS</div>
+                                <div className={"skillSize"} style={{marginLeft:"5vh"}}><span className={"dot"}>➤</span> HTML</div>
+                                <div className={"skillSize"} style={{marginLeft:"5vh"}}><span className={"dot"}>➤</span> CSS</div>
+                            </div>
                         </div>
                     </Col>
                 </Row>
