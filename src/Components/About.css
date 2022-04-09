@@ -31,7 +31,7 @@ details:hover {
 .qualityBox {
     margin-top: 5vh;
     width: 100%;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     display: flex;

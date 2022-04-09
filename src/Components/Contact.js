@@ -9,13 +9,13 @@ function Contact(){
             </p>
         </div>
         <div style={{display:"flex", justifyContent:'center'}}>
-            <a href={"https://www.linkedin.com/in/jaspervandenmeiracker/"} target="_blank">
+            <a rel="noreferrer" href={"https://www.linkedin.com/in/jaspervandenmeiracker/"} target="_blank">
                 <BsLinkedin className={"contactIcon"}/>
             </a>
-            <a href={"https://github.com/Jasper123pyah"} target="_blank">
+            <a rel="noreferrer" href={"https://github.com/Jasper123pyah"} target="_blank">
                 <BsGithub className={"contactIcon"}/>
             </a>
-            <a href='mailto:jaspervandenmeiracker99@gmail.com' target="_blank">
+            <a rel="noreferrer" href='mailto:jaspervandenmeiracker99@gmail.com' target="_blank">
                 <FiMail className={"contactIcon"}/>
             </a>
         </div>

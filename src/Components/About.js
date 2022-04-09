@@ -24,7 +24,7 @@ function About(){
                         <div className={"profileDescription"}>
                             I'm a software developer studying at Fontys who always strives for improvement.
                             I have a serious passion for problem-solving, helping others and programming.
-                            I am currently in my fourth semester doing the excellence programme of Fontys called <a style={{color:'#5c488e'}} target="_blank" href={'https://deltafhict.nl/'}>Delta</a>.
+                            I am currently in my fourth semester doing the excellence programme of Fontys called <a style={{color:'#5c488e'}} rel="noreferrer" target="_blank" href={'https://deltafhict.nl/'}>Delta</a>.
                         </div>
                     </Col>
                     <Col sm={12} md={12} lg={6}>
