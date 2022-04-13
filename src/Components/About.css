@@ -4,16 +4,26 @@
 }
 
 .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: white;
 }
-.centerSkills{
-    height:100%;
-    width:100%;
+
+.aboutContainer {
+    max-width: 90%;
+}
+
+.centerSkills {
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
 .aboutHead {
     color: #ffffff;
     width: 100%;
@@ -38,7 +48,7 @@ details:hover {
 }
 
 .programmingSkills {
-    font-size: 40px;
+    font-size: 2.95vmax;
     text-decoration: underline;
     text-decoration-color: #5c488e;
     margin-left: 2vw;
@@ -53,14 +63,17 @@ details:hover {
         margin-top: 5vh;
     }
 }
-.skillSize{
-    font-size: 30px;
+
+.skillSize {
+    font-size: 1.6vmax;
 }
+
 @media only screen and (max-width: 600px) {
-    .skillSize{
+    .skillSize {
         font-size: 24px;
     }
 }
+
 .circleBox {
     height: 20vh;
     width: 100%;
@@ -96,17 +109,13 @@ details:hover {
 
 .profileDescription {
     margin-top: 2vh;
-    font-size: x-large;
-    width: 100%;
-    height: 60%;
-    text-align: start;
+    height:100%;
+    font-size: 1.4vmax;
 }
 
 .profilePic {
     margin-top: 3vh;
     border-radius: 3%;
-    transform: rotate(-2deg);
-    -webkit-transform: rotate(-2deg);
     -moz-box-shadow: 0 0 40px black;
     -webkit-box-shadow: 0 0 40px black;
     box-shadow: 0 0 40px black;
@@ -119,6 +128,7 @@ details:hover {
         margin-bottom: 4vw;
         margin-right: 6vw;
     }
+
     .profileBox {
         display: flex;
         justify-content: center;
