@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import {FaPeopleCarry} from "react-icons/fa";
-import {Col, Container, Row} from "react-grid-system";
+import {Col, Row} from "react-grid-system";
 import {IoLanguage, MdLightbulbOutline} from "react-icons/all";
 import Portrait from '../IMG-20211004-WA0002.jpg';
 
