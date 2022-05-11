@@ -4,11 +4,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 40px;
+    font-size: 3vmax;
 }
 .contactIcon{
     margin:2vh;
     color: #5491bc;
     height:5vh;
     width:5vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .contactHead{
+        font-size: 5vmax;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .contactHead {
+        font-size: 5vmax;
+    }
 }

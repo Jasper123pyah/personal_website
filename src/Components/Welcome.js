@@ -15,7 +15,8 @@ function Welcome(){
                     <br/>
                     I'm a soon-to-be software developer.
                 </div>
-                <button style={{color:"white"}}onClick={scrollDown}>Get to know me!
+                <button className={'knowMeButton'} onClick={scrollDown}>
+                    Get to know me!
                     <div className="arrow down"></div>
                 </button>
             </div>

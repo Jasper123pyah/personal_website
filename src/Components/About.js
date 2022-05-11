@@ -30,7 +30,7 @@ function About() {
                 </Col>
                 <Col sm={12} md={12} lg={6}>
                     <div className={'centerSkills'}>
-                        <div style={{textDecorationThickness: "3px"}} className={"programmingSkills"}>
+                        <div className={"programmingSkills"}>
                             Programming Skills
                         </div>
                         <div style={{ marginTop: "1vh"}}>

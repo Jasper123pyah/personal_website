@@ -30,7 +30,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 40px;
+    font-size: 3vmax;
     margin-bottom: 2vw;
 }
 
@@ -48,30 +48,15 @@ details:hover {
 }
 
 .programmingSkills {
-    font-size: 2.95vmax;
+    font-size: 2.5vmax;
     text-decoration: underline;
+    text-decoration-thickness: 3px;
     text-decoration-color: #5c488e;
     margin-left: 2vw;
 }
 
-@media only screen and (max-width: 600px) {
-    .programmingSkills {
-        font-size: 4vh;
-        text-decoration: underline;
-        text-decoration-color: #5c488e;
-        margin-left: 2vw;
-        margin-top: 5vh;
-    }
-}
-
 .skillSize {
     font-size: 1.6vmax;
-}
-
-@media only screen and (max-width: 600px) {
-    .skillSize {
-        font-size: 24px;
-    }
 }
 
 .circleBox {
@@ -121,25 +106,9 @@ details:hover {
     box-shadow: 0 0 40px black;
 }
 
-@media only screen and (max-width: 900px) {
-    .profileDescription {
-        font-size: 2.3vh;
-        margin-top: 4vw;
-        margin-bottom: 4vw;
-        margin-right: 3vw;
-    }
-
-    .profileBox {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-}
-
 @media only screen and (max-width: 600px) {
     .profileDescription {
-        font-size: 24px;
+        font-size: 2.5vmax;
         margin-top: 4vw;
         margin-bottom: 4vw;
         margin-right: 6vw;
@@ -149,9 +118,6 @@ details:hover {
         border-radius: 3%;
         transform: rotate(-2deg);
         -webkit-transform: rotate(-2deg);
-        -moz-box-shadow: 0 0 40px black;
-        -webkit-box-shadow: 0 0 40px black;
-        box-shadow: 0 0 40px black;
     }
 
     .profileBox {
@@ -159,5 +125,60 @@ details:hover {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+    }
+    .programmingSkills {
+        font-size: 4vmax;
+        margin-top: 5vh;
+    }
+    .skillSize {
+        font-size: 24px;
+    }
+    .aboutHead {
+        font-size: 5vmax;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .profileDescription {
+        font-size: 2.5vmax;
+        margin-top: 4vw;
+    }
+    .programmingSkills {
+        font-size: 4vmax;
+    }
+    .profileBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .aboutHead {
+        font-size: 5vmax;
+    }
+    .skillSize {
+        font-size: 2.6vmax;
+    }
+}
+
+@media only screen and (max-height: 900px) and (min-width:1000px){
+    .profileDescription {
+        margin-top: 0px;
+        height:100%;
+        font-size: 1.7vmax;
+        margin-left:1vmax;
+    }
+    .programmingSkills {
+        font-size: 4vmax;
+    }
+    .profileBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .aboutHead {
+        font-size: 5vmax;
+    }
+    .skillSize {
+        font-size: 2.6vmax;
     }
 }
