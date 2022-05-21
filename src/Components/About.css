@@ -16,12 +16,13 @@
 }
 
 .centerSkills {
+    margin-top: 1vmax;
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .aboutHead {
@@ -59,7 +60,7 @@ details:hover {
     font-size: 1vmax;
 }
 .skillSize {
-    font-size: 1.6vmax;
+    font-size: 2vmax;
 }
 
 .circleBox {
@@ -98,7 +99,7 @@ details:hover {
 .profileDescription {
     margin-top: 2vh;
     height:100%;
-    font-size: 1.4vmax;
+    font-size: 1.95vmax;
 }
 
 .profilePic {
@@ -115,12 +116,6 @@ details:hover {
         margin-top: 4vw;
         margin-bottom: 4vw;
         margin-right: 6vw;
-    }
-
-    .profilePic {
-        border-radius: 3%;
-        transform: rotate(-2deg);
-        -webkit-transform: rotate(-2deg);
     }
     .profileBox {
         display: flex;
