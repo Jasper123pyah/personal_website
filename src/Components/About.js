@@ -14,12 +14,12 @@ function About() {
         </div>
         <div className={'aboutContainer'}>
             <Row>
-                <Col sm={12} md={12} lg={3}>
+                <Col sm={12} md={12} lg={3} xl={4}>
                     <div className={"profileBox"}>
                         <img alt={"Not Found"} className={"profilePic"} style={{height: "40vh"}} src={Portrait}/>
                     </div>
                 </Col>
-                <Col md={12} lg={3}>
+                <Col md={12} lg={3} xl={4}>
                     <div className={"profileDescription"}>
                         I'm a software developer studying at Fontys who always strives for improvement.
                         I have a serious passion for problem-solving, helping others and programming.
@@ -28,7 +28,7 @@ function About() {
                         href={'https://deltafhict.nl/'}>Delta</a>.
                     </div>
                 </Col>
-                <Col sm={12} md={12} lg={6}>
+                <Col sm={12} md={12} lg={6} xl={4}>
                     <div className={'centerSkills'}>
                         <div className={"programmingSkills"}>
                             Programming Skills
@@ -67,7 +67,7 @@ function About() {
                         <div style={{fontSize: "3vh"}}>
                             <b>Team Player</b>
                         </div>
-                        <div style={{textAlign: "center"}}>I'm socially skilled and <br/>always ready to help others.
+                        <div className={'qualitydescription'}>I'm socially skilled and <br/>always ready to help others.
                         </div>
                     </div>
                 </Col>
@@ -79,7 +79,7 @@ function About() {
                         <div style={{fontSize: "3vh"}}>
                             <b>Language Skills</b>
                         </div>
-                        <div style={{textAlign: "center"}}>I speak fluent English <br/>and Dutch and know
+                        <div className={'qualitydescription'}>I speak fluent English <br/>and Dutch and know
                             some <br/> Spanish, German and French.
                         </div>
                     </div>
@@ -92,7 +92,7 @@ function About() {
                         <div style={{fontSize: "3vh"}}>
                             <b>Quick Learner</b>
                         </div>
-                        <div style={{textAlign: "center"}}>It takes me a short time to <br/> get to know new
+                        <div className={'qualitydescription'}>It takes me a short time to <br/> get to know new
                             technologies.
                         </div>
                     </div>

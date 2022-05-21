@@ -54,7 +54,10 @@ details:hover {
     text-decoration-color: #5c488e;
     margin-left: 2vw;
 }
-
+.qualitydescription {
+    text-align: center;
+    font-size: 1vmax;
+}
 .skillSize {
     font-size: 1.6vmax;
 }
@@ -119,7 +122,6 @@ details:hover {
         transform: rotate(-2deg);
         -webkit-transform: rotate(-2deg);
     }
-
     .profileBox {
         display: flex;
         justify-content: center;
@@ -141,6 +143,9 @@ details:hover {
     .profileDescription {
         font-size: 2.5vmax;
         margin-top: 4vw;
+    }
+    .qualitydescription{
+        font-size: 2vmax;
     }
     .programmingSkills {
         margin-top: 4vmax;
