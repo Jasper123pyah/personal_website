@@ -14,12 +14,12 @@ function About() {
         </div>
         <div className={'aboutContainer'}>
             <Row>
-                <Col sm={12} md={12} lg={3}>
+                <Col sm={12} md={12} lg={3} xxl={4}>
                     <div className={"profileBox"}>
                         <img alt={"Not Found"} className={"profilePic"} style={{height: "40vh"}} src={Portrait}/>
                     </div>
                 </Col>
-                <Col md={12} lg={3}>
+                <Col md={12} lg={3} xxl={4}>
                     <div className={"profileDescription"}>
                         I'm a software developer studying at Fontys who always strives for improvement.
                         I have a serious passion for problem-solving, helping others and programming.
@@ -28,7 +28,7 @@ function About() {
                         href={'https://deltafhict.nl/'}>Delta</a>.
                     </div>
                 </Col>
-                <Col sm={12} md={12} lg={6}>
+                <Col sm={12} md={12} lg={6} xxl={4}>
                     <div className={'centerSkills'}>
                         <div className={"programmingSkills"}>
                             Programming Skills
