@@ -47,7 +47,11 @@ details:hover {
     flex-direction: column;
     display: flex;
 }
-
+.profileBox {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
 .programmingSkills {
     font-size: 2.5vmax;
     text-decoration: underline;
@@ -90,19 +94,16 @@ details:hover {
     color: #5c488e;
 }
 
-.profileBox {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-}
-
 .profileDescription {
     margin-top: 2vh;
     height:100%;
-    font-size: 1.4vmax;
+    font-size: 1.9vmax;
 }
 
 .profilePic {
+    min-height: 90%;
+    width: auto;
+    height: auto;
     margin-top: 3vh;
     border-radius: 3%;
     -moz-box-shadow: 0 0 40px black;
